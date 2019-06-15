@@ -47,7 +47,7 @@ a:hover {
 }
 
 article {
-	background-color: #8c8;
+	background-color: rgb(136, 204, 136);
 }
 
 footer {
@@ -58,4 +58,16 @@ header {
 	margin-top: 20px;
 	padding: 0 20px;
 	border: 4px groove darkmagenta;
+}
+
+article h1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	text-align: center;
+	transition: all 1s linear;
+}
+
+article h1:hover {
+	box-shadow: 0 10px rgba(80, 204, 80, 0.9);
 }
